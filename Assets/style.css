@@ -1,4 +1,17 @@
+/* temas */
+.theme-light {
+    --color-bg: #ffffff;
+    --color-bg2:#ececec;
+    --font-color: #000000;
+  }
+  .theme-dark {
+    --color-bg: #243133;
+    --color-bg2: #4a4c8f;
+    --font-color: #ffffff;
+  }
+  
 #title{
+    color: var(--font-color);
     text-align: center;
     padding-top: 2%;
     padding-bottom: 1%;
@@ -26,7 +39,7 @@
     background-color: black;
 }
 body{
-    background-color: rgb(136, 92, 92);
+    background-color:var(--color-bg);
 }
 header {
     padding: 1%;
@@ -37,7 +50,7 @@ header {
     border-bottom-left-radius: 10px;
 }
 h2{
-    
+    color: var(--font-color);
     text-align: center;
     padding-top: 2%;
     padding-bottom: 1%;
@@ -46,15 +59,21 @@ h2{
 .subTitle{
     margin: 40px;
 }
-
+/* agregado en clases */
+.card-title{
+    color: var(--font-color);
+}
 .card-text{
 
     font-size: 100%;
+    color: var(--font-color);
 }
 
+.card{
+    background-color: var(--color-bg2);
+}
 .profileCards{
 
-    
     display: flex;
     padding-left: 10%;
     padding-right: 10%;
@@ -63,6 +82,7 @@ h2{
 }
 
 .gameCards{
+    
     display: flex;
     padding-left: 10%;
     padding-right: 10%;
@@ -88,3 +108,4 @@ h2{
   .star.selected {
     color: gold;
   }
+
