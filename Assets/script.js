@@ -30,4 +30,3 @@ ratingContainers.forEach(container => {
     });
   }
 });
-// function changePage(img)
