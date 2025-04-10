@@ -10,3 +10,8 @@ p{
 .card-text{
     font-size: medium;
 }
+.container_cards{
+    display: flex;
+    padding: 5%;
+
+}
