@@ -1,28 +1,78 @@
-.ms-4{
-    padding-top: 3%;
-} 
-.SubTitle{
+#title{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+#switch{
+    background-color: transparent;
+    border: 0ch;
+    position: sticky;
+    bottom: 2%;
+    left: 2%;
+    
+    /* image-rendering: pixelated; */
+}
+
+#logo{
+    
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: black;
+}
+body{
+    background-color: rgb(136, 92, 92);
+}
+header {
+    padding: 1%;
+    font-size: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+h2{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.subTitle{
     margin: 40px;
 }
 
 .card-text{
-    
-    font-size: medium;
+
+    font-size: 100%;
 }
+
 .profileCards{
+
     display: flex;
-    padding: 5%;
-    gap: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 2%;
+
 }
+
 .gameCards{
     display: flex;
-    padding: 5%;
-    gap: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 2%;
 }
+
+
 /* clases de ranking  */
 
 .rating-container {
     display: inline-block;
+    align-self: center;
   }
 
   .star {

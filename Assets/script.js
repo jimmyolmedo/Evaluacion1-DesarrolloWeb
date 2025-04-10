@@ -1,9 +1,9 @@
 const ratingContainers = document.querySelectorAll('.rating-container');
 
 ratingContainers.forEach(container => {
-  const stars = container.querySelectorAll('.star');
-  const ratingValue = container.querySelector('.rating-value');
-  let selectedRating = 0;
+    const stars = container.querySelectorAll('.star');
+    const ratingValue = container.querySelector('.rating-value');
+    let selectedRating = 0;
 
   stars.forEach((star, index) => {
     star.addEventListener('mouseover', () => {
@@ -30,3 +30,4 @@ ratingContainers.forEach(container => {
     });
   }
 });
+// function changePage(img)
