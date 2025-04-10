@@ -8,9 +8,14 @@ p{
 }
 
 .card-text{
+    
     font-size: medium;
 }
-.container_cards{
+.gameCards{
+    display: flex;
+    padding: 5%;
+}
+.profileCards{
     display: flex;
     padding: 5%;
 
