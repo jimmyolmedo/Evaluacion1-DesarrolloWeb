@@ -19,3 +19,20 @@
     padding: 5%;
     gap: 1%;
 }
+/* clases de ranking  */
+
+.rating-container {
+    display: inline-block;
+  }
+
+  .star {
+    font-size: 40px;
+    color: gray;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .star.hover,
+  .star.selected {
+    color: gold;
+  }
