@@ -1,8 +1,6 @@
-p{
-    padding-top: 30px;
-    padding-left: 30px;
-    font-size: 30px;
-}
+.ms-4{
+    padding-top: 3%;
+} 
 .SubTitle{
     margin: 40px;
 }
@@ -11,12 +9,13 @@ p{
     
     font-size: medium;
 }
-.gameCards{
-    display: flex;
-    padding: 5%;
-}
 .profileCards{
     display: flex;
     padding: 5%;
-
+    gap: 1%;
+}
+.gameCards{
+    display: flex;
+    padding: 5%;
+    gap: 1%;
 }
